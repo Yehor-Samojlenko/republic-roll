@@ -35,5 +35,10 @@ releases: everything is converted from your own installs on first launch.
 - [Godot Engine](https://godotengine.org) (MIT).
 - Made with AI assistance (Claude).
 
+## License
+The code and design sheets in this repository are under the [MIT License](LICENSE): use and remix them freely,
+with credit. The tools listed above keep their own licenses, and Counter-Strike 2 and Riders Republic content is
+never part of this project.
+
 Counter-Strike 2 is a trademark of Valve Corporation. Riders Republic is a trademark of Ubisoft. This is an
 unofficial fan project, not affiliated with or endorsed by either.
