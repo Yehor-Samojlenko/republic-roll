@@ -1,0 +1,27 @@
+{
+  "sheet": "rr_sounds",
+  "about": "Riders Republic ride sounds, decoded at first launch from the player's own sounddata/pc/*.pck. Media is looked up by id in every bank of both packages (patch first).",
+  "columns": {
+    "id": "unique key",
+    "role": "loop_speed (volume/pitch follow speed) or oneshot",
+    "media_id": "Wwise media id",
+    "rr_bank": "Riders Republic bank it came from (name resolved by wwiser)",
+    "pitch_min": "playback pitch at standstill (loops)",
+    "pitch_max": "playback pitch at top speed (loops)",
+    "volume_db": "base level",
+    "chosen_by": "why this sound",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    { "id": "skate_roll", "role": "loop_speed", "media_id": 1057784253, "rr_bank": "SBK_MC_Skate", "pitch_min": 0.8, "pitch_max": 1.25, "volume_db": -2.0,
+      "chosen_by": "9.4 s steady loop in the skate bank, low centroid 1 kHz (wheels on concrete profile)", "verified": "pending: listen in game" },
+    { "id": "skate_land", "role": "oneshot", "media_id": 500191819, "rr_bank": "SBK_MC_Skate", "pitch_min": 0.95, "pitch_max": 1.05, "volume_db": 0.0,
+      "chosen_by": "0.34 s, crest 11.5, attack at 2% (impact profile)", "verified": "pending: listen in game" },
+    { "id": "bmx_roll", "role": "loop_speed", "media_id": 476503484, "rr_bank": "SBK_MAD_MC_Ground_BMX", "pitch_min": 0.75, "pitch_max": 1.3, "volume_db": -2.0,
+      "chosen_by": "5.9 s steady loop under rtpc_bike_speed in the BMX bank", "verified": "pending: listen in game" },
+    { "id": "bmx_land", "role": "oneshot", "media_id": 27112677, "rr_bank": "SBK_MAD_MC_Ground_BMX", "pitch_min": 0.95, "pitch_max": 1.05, "volume_db": 0.0,
+      "chosen_by": "0.9 s, crest 26.5, attack at start, under sw_bike_speed in the BMX bank", "verified": "pending: listen in game" },
+    { "id": "wind", "role": "loop_speed", "media_id": 265486400, "rr_bank": "SBK_MAD_MC_Ground_Mountainboard", "pitch_min": 0.7, "pitch_max": 1.4, "volume_db": -6.0,
+      "chosen_by": "4.3 s steady broadband loop, centroid 5.7 kHz, flux 0.03 (wind profile)", "verified": "pending: listen in game" }
+  ]
+}

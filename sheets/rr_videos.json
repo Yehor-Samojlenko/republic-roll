@@ -1,0 +1,16 @@
+{
+  "sheet": "rr_videos",
+  "about": "Riders Republic videos shown on billboards, read from the player's own {rr}/videos and converted to Theora in the cache.",
+  "columns": {
+    "id": "unique key",
+    "file": "file in Riders Republic's videos folder",
+    "caption": "caption under the screen (event title from the file name)",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    { "id": "skate_store", "file": "Skate_Store_Video.webm", "caption": "Riders Republic - Skate", "verified": "pending: plays on billboard" },
+    { "id": "bmx_trailer", "file": "BMX_Trailer_GiantScreen.webm", "caption": "Riders Republic - BMX", "verified": "pending: plays on billboard" },
+    { "id": "skate_vans", "file": "SKATE_BIGEVENT_Vans.webm", "caption": "Big Event - Vans", "verified": "pending: plays on billboard" },
+    { "id": "bmx_uncontained", "file": "BMX_BigEvent_RedBull_Uncontained.webm", "caption": "Big Event - Red Bull Uncontained", "verified": "pending: plays on billboard" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sheet": "agents",
+  "about": "CS2 agents the player can ride as. Model read from {game}/game/csgo/pak01_dir.vpk at first launch.",
+  "columns": {
+    "id": "unique key",
+    "title": "menu label",
+    "side": "CT or T",
+    "vmdl": "model inside pak01_dir.vpk",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    { "id": "fbi", "title": "FBI", "side": "CT", "vmdl": "agents/models/ctm_fbi/ctm_fbi.vmdl_c", "verified": "pending: render posed on board" },
+    { "id": "sas", "title": "SAS", "side": "CT", "vmdl": "agents/models/ctm_sas/ctm_sas.vmdl_c", "verified": "pending: render posed on board" },
+    { "id": "phoenix", "title": "Phoenix", "side": "T", "vmdl": "agents/models/tm_phoenix/tm_phoenix.vmdl_c", "verified": "pending: render posed on board" },
+    { "id": "elite", "title": "Elite Crew", "side": "T", "vmdl": "agents/models/tm_leet/tm_leet_varianta.vmdl_c", "verified": "pending: render posed on board" }
+  ]
+}

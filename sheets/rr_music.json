@@ -1,0 +1,20 @@
+{
+  "sheet": "rr_music",
+  "about": "Riders Republic radio played while riding. Track list is found at runtime from the player's own music bank, so no Ubisoft content ships with the mod.",
+  "columns": {
+    "id": "unique key",
+    "pck": "package holding the music bank and streams",
+    "bank": "bank name",
+    "bank_id": "Wwise bank id",
+    "group": "hierarchy node under which the radio sounds sit",
+    "min_seconds": "ignore streams shorter than this",
+    "expected_tracks": "count seen on build 24114024",
+    "order": "shuffle or sequence",
+    "skip_key": "id in controls.json",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    { "id": "radio", "pck": "sounds_sfx_patch_1_.pck", "bank": "SBK_MAD_Events_Music", "bank_id": 2502911610, "group": "music_radio",
+      "min_seconds": 60, "expected_tracks": 182, "order": "shuffle", "skip_key": "next_track", "verified": "pending: tracks play in game" }
+  ]
+}

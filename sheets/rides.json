@@ -1,0 +1,44 @@
+{
+  "sheet": "rides",
+  "about": "The two rides. Units: metres, seconds, radians. Meshes are our own, built in code from these numbers.",
+  "columns": {
+    "id": "unique key",
+    "title": "menu label",
+    "max_speed": "top speed on flat ground, m/s",
+    "accel": "push / pedal acceleration, m/s^2",
+    "push_interval": "seconds between skate pushes (0 = continuous pedalling)",
+    "brake": "braking deceleration, m/s^2",
+    "drag": "rolling drag factor per second",
+    "turn_rate": "max yaw rate at low speed, rad/s",
+    "turn_falloff": "how much turning shrinks at top speed, 0..1",
+    "jump_velocity": "ollie / bunny-hop launch speed, m/s",
+    "gravity": "m/s^2",
+    "length": "deck or wheelbase length, m",
+    "width": "deck or handlebar width, m",
+    "wheel_radius": "m",
+    "ride_height": "pelvis height above ground while riding, m",
+    "pose": "id in poses.json",
+    "roll_sound": "id in rr_sounds.json",
+    "land_sound": "id in rr_sounds.json",
+    "wind_sound": "id in rr_sounds.json",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    {
+      "id": "skate", "title": "Skateboard",
+      "max_speed": 11.0, "accel": 7.0, "push_interval": 0.55, "brake": 9.0, "drag": 0.18,
+      "turn_rate": 2.6, "turn_falloff": 0.55, "jump_velocity": 5.2, "gravity": 19.0,
+      "length": 0.82, "width": 0.21, "wheel_radius": 0.028, "ride_height": 0.95,
+      "pose": "skate_stance", "roll_sound": "skate_roll", "land_sound": "skate_land", "wind_sound": "wind",
+      "verified": "pending: ride feel test on dust2"
+    },
+    {
+      "id": "bmx", "title": "BMX",
+      "max_speed": 14.0, "accel": 6.0, "push_interval": 0.0, "brake": 11.0, "drag": 0.14,
+      "turn_rate": 2.1, "turn_falloff": 0.6, "jump_velocity": 5.6, "gravity": 19.0,
+      "length": 1.0, "width": 0.7, "wheel_radius": 0.255, "ride_height": 1.05,
+      "pose": "bmx_stance", "roll_sound": "bmx_roll", "land_sound": "bmx_land", "wind_sound": "wind",
+      "verified": "pending: ride feel test on dust2"
+    }
+  ]
+}

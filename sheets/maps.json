@@ -1,0 +1,36 @@
+{
+  "sheet": "maps",
+  "about": "CS2 maps the player can ride. Everything is read from the player's own CS2 install at first launch.",
+  "columns": {
+    "id": "unique key",
+    "title": "menu label",
+    "vpk": "file under {game}/game/csgo/maps/",
+    "world": "world resource inside the vpk",
+    "entities": "entity lump inside the vpk (spawn points come from here)",
+    "spawn_class": "entity classname used as the ride start",
+    "billboards": "ids in billboards.json placed on this map",
+    "verified": "yes: how it was checked / pending: what is left"
+  },
+  "rows": [
+    {
+      "id": "dust2",
+      "title": "Dust II",
+      "vpk": "de_dust2.vpk",
+      "world": "maps/de_dust2/world.vwrld_c",
+      "entities": "maps/de_dust2/entities/default_ents.vents_c",
+      "spawn_class": "info_player_terrorist",
+      "billboards": ["dust2_tspawn", "dust2_ctspawn", "dust2_mid"],
+      "verified": "pending: load in game, spawn on ground"
+    },
+    {
+      "id": "mirage",
+      "title": "Mirage",
+      "vpk": "de_mirage.vpk",
+      "world": "maps/de_mirage/world.vwrld_c",
+      "entities": "maps/de_mirage/entities/default_ents.vents_c",
+      "spawn_class": "info_player_terrorist",
+      "billboards": ["mirage_tspawn", "mirage_ctspawn", "mirage_mid"],
+      "verified": "pending: load in game, spawn on ground"
+    }
+  ]
+}

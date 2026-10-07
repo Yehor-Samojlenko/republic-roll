@@ -1,0 +1,21 @@
+{
+  "sheet": "billboards",
+  "about": "Big screens placed on each map. Anchor comes from the map's own spawn entities; the screen is pushed onto the nearest wall by a raycast.",
+  "columns": {
+    "id": "unique key",
+    "map": "id in maps.json",
+    "anchor": "tspawn = first info_player_terrorist, ctspawn = first info_player_counterterrorist, mid = halfway between",
+    "height": "screen centre above the anchor's ground, m",
+    "width": "screen width, m (16:9)",
+    "video": "id in rr_videos.json",
+    "verified": "yes/pending"
+  },
+  "rows": [
+    { "id": "dust2_tspawn", "map": "dust2", "anchor": "tspawn", "height": 4.0, "width": 7.0, "video": "skate_store", "verified": "pending: visible in screenshot" },
+    { "id": "dust2_ctspawn", "map": "dust2", "anchor": "ctspawn", "height": 4.0, "width": 7.0, "video": "bmx_trailer", "verified": "pending: visible in screenshot" },
+    { "id": "dust2_mid", "map": "dust2", "anchor": "mid", "height": 4.5, "width": 8.0, "video": "skate_vans", "verified": "pending: visible in screenshot" },
+    { "id": "mirage_tspawn", "map": "mirage", "anchor": "tspawn", "height": 4.0, "width": 7.0, "video": "bmx_uncontained", "verified": "pending: visible in screenshot" },
+    { "id": "mirage_ctspawn", "map": "mirage", "anchor": "ctspawn", "height": 4.0, "width": 7.0, "video": "skate_store", "verified": "pending: visible in screenshot" },
+    { "id": "mirage_mid", "map": "mirage", "anchor": "mid", "height": 4.5, "width": 8.0, "video": "bmx_trailer", "verified": "pending: visible in screenshot" }
+  ]
+}

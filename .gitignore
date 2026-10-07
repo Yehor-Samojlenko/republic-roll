@@ -1,0 +1,26 @@
+# Never commit game content: every player converts their own CS2 / Riders Republic files at runtime.
+*.vpk
+*.vpk_c
+*.*_c
+*.forge
+*.pck
+*.bnk
+*.wem
+*.webm
+*.glb
+*.gltf
+cache/
+export/
+
+# Godot / .NET build output
+.godot/
+.import/
+bin/
+obj/
+build/
+dist/
+*.pck.tmp
+
+# Secrets
+.env
+*.token
